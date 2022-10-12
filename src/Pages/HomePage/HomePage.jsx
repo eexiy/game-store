@@ -39,15 +39,6 @@ const games = [
         description: 'Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.'
     },
     {
-        image: '/game-covers/rainbow_siege.jpeg',
-        title: 'Tom Clancy\'s Rainbow Six® Siege',
-        video: 'https://www.youtube.com/embed/6wlvYh0h63k',
-        genres: ['Тактика', 'Шутер'],
-        price: 18,
-        id: 5,
-        description: 'Tom Clancy\'s Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.'
-    },
-    {
         image: '/game-covers/assassins_creed_valhalla.png',
         title: 'Assassin’s Creed Valhalla',
         genres: ['Паркур', 'РПГ', 'Открытый мир'],
@@ -56,6 +47,16 @@ const games = [
         id: 6,
         description: 'Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed.'
     },
+    {
+        image: '/game-covers/rainbow_siege.jpeg',
+        title: 'Tom Clancy\'s Rainbow Six® Siege',
+        video: 'https://www.youtube.com/embed/6wlvYh0h63k',
+        genres: ['Тактика', 'Шутер'],
+        price: 18,
+        id: 5,
+        description: 'Tom Clancy\'s Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.'
+    },
+  
 ]
 
 const HomePage = (props) => {

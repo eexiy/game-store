@@ -3,3 +3,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.cartItemDeleteIcon {
+    cursor: pointer;
+}

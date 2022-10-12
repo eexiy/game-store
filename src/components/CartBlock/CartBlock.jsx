@@ -27,7 +27,7 @@ const CartBlock = (props) => {
                 onClick={() => setIsCartMenuVisible(!isCartMenuVisible)}
             />
             {
-                totalPrice > 0
+                totalPrice
                     ? <span className={s.cardBlockPrice}>{totalPrice}$</span>
                     : null
             }
