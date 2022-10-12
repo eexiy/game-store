@@ -1,0 +1,16 @@
+.cardBlock {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cardBlockPrice {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardBlockIcon {
+    cursor: pointer;
+    position: relative;
+}

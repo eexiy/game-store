@@ -1,0 +1,38 @@
+.gameItem {
+    max-width: 320px;
+    width: 100%;
+    background: rgb(36, 37, 41);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.gameItem:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.gameItemTitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.gameItemGenre {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameItemDetails {
+    padding: 0px 20px;
+}
+
+.gameItemDescription {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.gameItemBuy {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
