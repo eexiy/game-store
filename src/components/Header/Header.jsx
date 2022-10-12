@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import CardBlock from '../CardBlock/CardBlock'
+import CartBlock from '../CartBlock/CartBlock'
 import s from './Header.module.css'
 
 const Header = (props) => {
@@ -11,7 +11,7 @@ const Header = (props) => {
                         <NavLink to="/" className={s.header__wrapperTitle}>Game Store</NavLink>
                     </div>
                     <div className={`${s.wrapper}`}>
-                        <CardBlock />
+                        <CartBlock />
                     </div>
                 </div>
 
