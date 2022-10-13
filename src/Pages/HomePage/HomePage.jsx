@@ -1,4 +1,4 @@
-import GameCard from '../../components/Game/GameCard'
+import GameCard from '../../components/GameCart/GameCard'
 import s from './HomePage.module.css'
 
 const games = [

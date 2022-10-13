@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux'
-import GameCover from '../Game/GameCover/GameCover'
+import GameCover from '../GameCart/GameCover/GameCover'
 import s from './OrderItem.module.css'
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import { deleteItemFromCart } from '../../redux/cart/reducer'

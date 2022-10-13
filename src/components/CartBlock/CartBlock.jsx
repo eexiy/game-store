@@ -20,7 +20,7 @@ const CartBlock = (props) => {
 
     return (
         <div className={s.cardBlock}>
-            <ItemsInCart quantity={items.length}/>
+            <ItemsInCart quantity={items.length} />
             <BsCartPlus
                 size={25}
                 className={s.cardBlockIcon}

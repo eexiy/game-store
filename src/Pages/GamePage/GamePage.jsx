@@ -1,13 +1,13 @@
 import { useSelector } from 'react-redux'
-import GameBuy from '../../components/Game/GameBuy/GameBuy'
-import GameCover from '../../components/Game/GameCover/GameCover'
-import GameGenre from '../../components/Game/GameGenre/GameGenre'
+import GameBuy from '../../components/GameCart/GameBuy/GameBuy'
+import GameCover from '../../components/GameCart/GameCover/GameCover'
+import GameGenre from '../../components/GameCart/GameGenre/GameGenre'
 import s from './GamePage.module.css'
 
 const GamePage = (props) => {
 
     const game = useSelector(state => state.game.currentGame)
-    console.log(game);
+    
     if (!game) return null
 
     return (
